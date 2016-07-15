@@ -1,0 +1,5 @@
+.drawing {
+    width: 100%;
+    border:2px solid #000000;
+    cursor: url("smallest-pen.cur"), auto;
+}
