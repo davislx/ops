@@ -32,6 +32,9 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="toolbar">
           <ul class="nav navbar-nav">
+            <li><a href="#"><span id="open-file" class="glyphicon glyphicon-file"></span></a>
+              <input type="file" id="file-input" multiple accept="image" class="hidden">
+            </li>
             <li class="active"><a href="#"><span class="glyphicon glyphicon-pencil"></span></a></li>
             <li><a href="#"><span class="glyphicon glyphicon-trash"></span></a></li>
             <li><a href="#"><span class="glyphicon glyphicon-zoom-in"></span></a></li>
@@ -41,6 +44,6 @@
       </div><!-- /.container-->
     </nav>
 
-    <canvas id="c"></canvas>
+    <canvas id="c" class="drawing" width="900px" height="600px"></canvas>
   </body>
 </html>
